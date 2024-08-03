@@ -1,0 +1,42 @@
+button{
+width: 100px;
+height: 100px;
+background-color: red;
+position: relative;
+}
+
+.changer {
+-webkit-animation-name: app;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-delay: 2s;
+-webkit-animation-iteration-count: one;
+/* -webkit-animation-direction: right-top; */
+animation-name: app;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 2s;
+/* animation-direction: right-top; */
+}
+
+@-webkit-keyframes app {
+0% {
+background-color: red;
+}
+20% {
+background-color: blue;
+}
+40% {
+background-color: green;
+}
+60% {
+background-color: yellow;
+}
+80% {
+background-color: orrange;
+}
+100% {
+background-color: pink;
+}
+
+}
